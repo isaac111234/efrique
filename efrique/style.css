@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paro{
+    background: black;
+    color: rgb(216, 229, 192);
+}
+.calm{
+    justify-content: end;
+}
+.icon{
+    color: white;
+}
+.head{
+    background: white;
+    box-shadow: 0px 0px 1px 0px black;
+}
+.light li a{
+    color: black;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 800;
+}
+.light li a:hover{
+    border-bottom: 2px solid green;
+    color: green;
+   
+}
+.light1{
+    color: black;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.light1:hover{
+    border-bottom: 2px solid green;
+    color: green;
+}
+.button-1{
+    background: green;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 30px 10px 20px;
+    
+}
+.button-1:hover{
+    background: rgb(10, 81, 10);
+    box-shadow: 0px 5px black;
+}
+.home{
+   background-image: linear-gradient(to bottom, rgba(54, 49, 49, 0.5), rgba(14, 13, 13, 0.5)), url('/sele.jpg');
+   font-family: monospace;
+  background-position: 50% 50%;
+  padding: 0px 0px 100px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+} 
+.coc:hover{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.mon{
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 3rem;
+   
+}
+.bot{
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    padding: 13px;
+    color: white;
+
+}
+.redd{
+    width: 80%;
+    height: 370px;
+    border-radius: 20px;
+    background-color: #DEE0E2;
+    z-index: 10;
+    position: relative;
+    top: 20px;
+}
+.worthy{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #407C2C;
+}
+.dol{
+    width: 85%;
+    margin: 0 auto;
+}
+.dol select{
+    background:  #DEE0E2;
+    border: none;
+
+}
+.for{
+    font-weight: 800;
+}
+.for1{
+    font-weight: 800;
+}
+.for2{
+    font-weight: 800;
+}
+.wer{
+    border-bottom: 2px solid green;
+   width: 85%;
+   margin: 0 auto;
+}
+.wer1{
+    border-bottom: 2px solid green;
+   width: 89%;
+   margin: 0 auto;
+}
+.ala input{
+    border: none;
+    outline: none;
+    background-color: #DEE0E2;
+}
+.rod{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+.bog{
+    height: 40px;
+    width: 80%;
+    border-radius:0px 0px 20px 20px ;
+    background-color: #407C2C;
+}
+.fadd{
+    background: #F4FFEF;
+}
+.my{
+    font-family: monospace;
+}
+.yaga{
+    font-weight: 800;
+}
+.ulo{
+    color: green;
+}
+.dol{
+    position: relative;
+    top: 40px;
+}
+.coc1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.coc1:hover{
+   border: 1px solid green;
+   border-radius: 5px;
+   padding: 10px;
+}
+.doj{
+    border-bottom: 2px solid green;
+    width: 20%;
+}
+.lain{
+    color: green;
+}
+.bad{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.rush{
+    font-family: monospace;
+}
+.more{
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    background: #1f6005;
+     cursor: pointer;
+    position: relative;
+    
+}
+.more:hover{
+        opacity: 1;
+        pointer-events: auto;
+        top: -20px;
+} 
+.more1{
+    width: 90%;
+    height: 290px;
+    border-radius: 30px;
+   position: relative;
+   bottom: 50px;
+   right: 30px;
+   background-image: url('/v1.jpg');
+   background-position: 100% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 2px 2px 4px 2px black;
+}
+.more1:hover{
+    border: 2px solid rgb(7, 191, 7);
+}
+.more2:hover{
+    border: 2px solid rgb(7, 191, 7);
+}
+.more3:hover{
+    border: 2px solid rgb(7, 191, 7);
+}
+.more4:hover{
+    border: 2px solid rgb(7, 191, 7);
+}
+.more5:hover{
+    border: 2px solid rgb(7, 191, 7);
+}
+.more6:hover{
+    border: 2px solid rgb(7, 191, 7);
+}
+.more2{
+    width: 90%;
+    height: 290px;
+    border-radius: 30px;
+   position: relative;
+   bottom: 50px;
+   right: 30px;
+   background-image: url('/event.jpg');
+   background-position: 100% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 2px 2px 4px 2px black;
+}
+.more3{
+    width: 90%;
+    height: 290px;
+    border-radius: 30px;
+   position: relative;
+   bottom: 50px;
+   right: 30px;
+   background-image: url('/tra.webp');
+   background-position: 100% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 2px 2px 4px 2px black;
+}
+.more4{
+    width: 90%;
+    height: 290px;
+    border-radius: 30px;
+   position: relative;
+   bottom: 50px;
+   right: 30px;
+   background-image: url('/ven.jpg');
+   background-position: 100% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 2px 2px 4px 2px black;
+}
+.more5{
+    width: 90%;
+    height: 290px;
+    border-radius: 30px;
+   position: relative;
+   bottom: 50px;
+   right: 30px;
+   background-image: url('/quee.jpg');
+   background-position: 50% 70%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 2px 2px 4px 2px black;
+}
+.more6{
+    width: 90%;
+    height: 290px;
+    border-radius: 30px;
+   position: relative;
+   bottom: 50px;
+   right: 30px;
+   background-image: url('/form.jpg');
+   background-position: 50% 70%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 2px 2px 4px 2px black;
+}
+.como{
+    position: relative;
+    bottom: 30px;
+    left: 90px;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.coug{
+    background: #F4FFEF;
+}
+.pay{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: monospace;
+}
+.car{
+    margin-top: 30px;
+}
+.image{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/fast-pay.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image1{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/excellence.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image2{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/marketing.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image3{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/exc.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image4{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/multiple.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image5{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/safe-.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.fle{
+    background: #eaffe3;
+    border-radius: 10px;
+    width: 85%;
+    height: 400px;
+    margin: auto;
+ }
+ .come{
+    border-radius: 10px;
+    outline-style: double;
+   outline-color: rgb(4, 114, 31);
+   position: relative;
+   bottom: 30px;
+   left: 20px;
+ }
+ .drop{
+    font-size: 1.2rem;
+ }
+ .init{
+    color: green;
+    font-weight: 800;
+ }
+ .drain{
+    line-height: 2rem;
+    font-family: monospace;
+ }
+ .comply{
+    font-size:2rem;
+    font-weight: 800;
+ }
+ .colo{
+    background: black;
+    color: rgb(244, 237, 237);
+    font-family: monospace;
+ }
+ .colo1{
+    color: rgb(241, 236, 236);
+ }
+.cof{
+    width: 30%;
+}
+.roll{
+    line-height: 2rem;
+}
+.icon1{
+    color: rgb(14, 169, 14);
+}
+.fame li a{
+    color:  rgb(241, 236, 236);
+}
+.fame li a:hover{
+    color: green;
+}
+.dog{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.can{
+   border-bottom: 1px solid green;
+}
+.boat{
+    border-bottom: 2px solid green;
+    width: 40%;
+}
+
+@media (max-width:1000px){
+    .home{
+        background-size: 100% 100%;
+    }
+    .mon{
+        font-weight: 800;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        
+       
+       
+    }
+    .coc{
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .dof{
+        text-align: center;
+    }
+    .coc1{
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .redd{
+        width: 100%;
+    }
+    .bog{
+        width: 100%;
+    }
+    .for1{
+     padding-top:30px;
+    }
+    .for {
+      display: none;
+
+    }
+    .for2{
+        padding-top: 10px;
+    }
+    .ulo{
+        padding-top: 25px;
+    }
+    .rop{
+       text-align: center;
+    }
+   .doj{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .more{
+    width: 100%;
+   }
+   .more1{
+     position: relative;
+     position: relative;
+    bottom: 50px;
+    left: -5px; 
+   }
+   .more2{
+    position: relative;
+    position: relative;
+   bottom: 50px;
+   left: -5px; 
+  }
+  .more3{
+    position: relative;
+    position: relative;
+   bottom: 50px;
+   left: -5px; 
+  }
+  .more4{
+    position: relative;
+    position: relative;
+   bottom: 50px;
+   left: -5px; 
+  }
+  .more5{
+    position: relative;
+    position: relative;
+   bottom: 50px;
+   left: -5px; 
+  }
+  .more6{
+    position: relative;
+    position: relative;
+   bottom: 50px;
+   left: -5px; 
+  }
+  .como{
+    position: relative;
+    left: 40px;
+  }
+  .image{
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/safe-.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image1{
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/excellence.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image2{
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/marketing.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image3{
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/exc.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image4{
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/multiple.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.image5{
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(207, 197, 197);
+    background-image: url('/safe-.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.fle{
+    background: #eaffe3;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+ }
+ .come{
+    border-radius: 10px;
+    outline-style: double;
+    outline-color: rgb(4, 114, 31);
+    position: relative;
+    left: 17px;
+    width: 90%;
+    height: 100%;
+ }
+ .comply{
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+   
+ }
+ .drop{
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 15px;
+ }
+ .fame li a{
+    font-size: 0.9rem;
+
+   
+ }
+ .roll{
+    font-size: 0.9rem;
+ }
+ .init{
+    text-align: center;
+    padding-right: 30px;
+ }
+}

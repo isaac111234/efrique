@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    background: black;
+    color: rgb(216, 229, 192);
+}
+.calm{
+    justify-content: end;
+}
+.icon{
+    color: white;
+}
+.head{
+    background: white;
+    box-shadow: 0px 0px 1px 0px black;
+}
+.light li a{
+    color: black;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 800;
+}
+.light li a:hover{
+    border-bottom: 2px solid green;
+    color: green;
+   
+}
+.light1{
+    color: black;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.light1:hover{
+    border-bottom: 2px solid green;
+    color: green;
+}
+.button-1{
+    background: green;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 30px 10px 20px;
+    
+}
+.button-1:hover{
+    background: rgb(10, 81, 10);
+    box-shadow: 0px 5px black;
+}
+.gaid{
+    background: linear-gradient(to bottom, rgb(14, 96, 14, 0.99), rgb(19, 18, 18, 0.99));
+}
+.vod{
+   font-weight: 800;
+   font-family: monospace;
+}
+.wow{
+    background-color: white;
+    height: 690px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px rgb(173, 165, 165) ;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.cag{
+ font-weight: 800;   
+
+}
+.wow label{
+    font-weight: 800; 
+
+}
+.dof{
+    width: 95%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius:7px;
+    
+}
+.dof input{
+   border: none;
+
+}
+.dod{
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 7px;
+    
+}
+.dod input{
+    border: none;
+ 
+ }
+ .button-2{
+    color: white;
+    background: green;
+    width: 20%;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+ }
+
+
+.fle{
+    background: #eaffe3;
+    border-radius: 10px;
+    width: 85%;
+    height: 400px;
+    margin: auto;
+ }
+ .come{
+    border-radius: 10px;
+    outline-style: double;
+   outline-color: rgb(4, 114, 31);
+   position: relative;
+   bottom: 30px;
+   left: 20px;
+ }
+ .drop{
+    font-size: 1.2rem;
+ }
+ .init{
+    color: green;
+    font-weight: 800;
+ }
+ .drain{
+    line-height: 2rem;
+    font-family: monospace;
+ }
+ .comply{
+    font-size:2rem;
+    font-weight: 800;
+ }
+ .colo{
+    background: black;
+    color: rgb(244, 237, 237);
+    font-family: monospace;
+ }
+ .colo1{
+    color: rgb(241, 236, 236);
+ }
+.cof{
+    width: 30%;
+}
+.roll{
+    line-height: 2rem;
+}
+.icon1{
+    color: rgb(14, 169, 14);
+}
+.fame li a{
+    color:  rgb(241, 236, 236);
+}
+.fame li a:hover{
+    color: green;
+}
+.dog{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.can{
+   border-bottom: 1px solid green;
+}
+.boat{
+    border-bottom: 2px solid green;
+    width: 40%;
+}
+
+
+
+
+ @media (max-width:1000px){
+   .wow{
+    width: 90%;
+    background-color: white;
+    height:90%;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px rgb(173, 165, 165) ;
+    border-radius: 10px;
+    font-family: monospace;
+   }
+   .cogg textarea{
+     width: 100%;
+   }
+   .button-2{
+    color: white;
+    background: green;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+ }
+ .tere{
+    font-size:0.8rem;
+    padding: 2px;
+    line-height:2rem;
+ }.cag{
+    text-align: center;
+ }
+ .dod{
+    width: 96%;
+ }
+ .fle{
+    background: #eaffe3;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+ }
+ .come{
+    border-radius: 10px;
+    outline-style: double;
+    outline-color: rgb(4, 114, 31);
+    position: relative;
+    left: 17px;
+    width: 90%;
+    height: 100%;
+ }
+ .comply{
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+   
+ }
+ .drop{
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 15px;
+ }
+ .fame li a{
+    font-size: 0.9rem;
+
+   
+ }
+ .roll{
+    font-size: 0.9rem;
+ }
+ .init{
+    text-align: center;
+    padding-right: 30px;
+ }
+ .boat{
+    border-bottom: 2px solid green;
+    width: 20%;
+}
+  
+   
+ }
+ @media (min-width:1024px){
+    .cogg textarea{
+        width: 90%;
+      }
+      .button-2{
+        color: white;
+        background: green;
+        width: 40%;
+        border: none;
+        padding: 10px;
+        border-radius: 7px;
+     }
+ }
